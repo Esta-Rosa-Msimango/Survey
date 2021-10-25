@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box button, .submit_button{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: white;
+    border: 2px solid black;
+    width: 150px;
+    height: 25px;
+    margin-top: 10px;
+    transition: border-colo 1s ease-out 0.2s;
+}
+
+/*2nd screen*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.top_text,p, .fav_food{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+table {
+    width: auto;
+    border-collapse: collapse;
+}
+table input{
+    margin-left: 45%;
+}
+table, tr,td,th{
+    border: 1px solid black;
+    margin: auto;
+}
+th{
+    background-color:gray;
+}
+.box button:hover{
+    border-color: cornflowerblue;
+}
+.box button:active{
+    border-color:crimson;
+}
+.side{
+    display: flex;
+}
+.in input:nth-child(13){
+    width: 30px;
+}
+.in input{
+    border: 2px solid rgba(52, 90, 173, 0.6);
+    margin-left: 5px;
+}
+.side{
+    margin-left: 70px;
+}
+.submit_button{
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
